@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Godot Starter Kit"
+config/name="MySceneManager"
 config/description="This is my personal scene manager. I can use it as a simple starting point for new projects. It allows me to already have a decent scene switcher setup"
 run/main_scene="uid://byje7lca6mloh"
 config/features=PackedStringArray("4.4", "Forward Plus")

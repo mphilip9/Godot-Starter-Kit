@@ -29,6 +29,7 @@ layout_mode = 2
 
 [node name="Console" type="RichTextLabel" parent="MarginContainer/PanelContainer/Contents"]
 unique_name_in_owner = true
+process_mode = 3
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_vertical = 3
