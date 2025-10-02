@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxgdtho6f3375"]
+
+[ext_resource type="Script" uid="uid://bdqohaj5rpl85" path="res://scenes/gameplay/gameplay.gd" id="1_6gcy0"]
+[ext_resource type="PackedScene" uid="uid://4ffsds0qrhy7" path="res://scenes/pause/pause_menu.tscn" id="2_i8tm1"]
+[ext_resource type="PackedScene" uid="uid://ffu647kk3fmo" path="res://scenes/debug/debug_overlay.tscn" id="3_2p25t"]
+
+[node name="Gameplay" type="Node2D"]
+script = ExtResource("1_6gcy0")
+
+[node name="DebugLayer" type="CanvasLayer" parent="."]
+
+[node name="DebugOverlay" parent="DebugLayer" instance=ExtResource("3_2p25t")]
+
+[node name="CurrentLevel" type="Node2D" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+process_mode = 3
+
+[node name="HUD" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/HUD"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -59.5
+offset_top = -33.0
+offset_right = 59.5
+offset_bottom = 33.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ReturnButton" type="Button" parent="CanvasLayer/HUD/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Return to Title
+"
+
+[node name="PauseMenu" parent="CanvasLayer" instance=ExtResource("2_i8tm1")]
+
+[connection signal="pressed" from="CanvasLayer/HUD/VBoxContainer/ReturnButton" to="." method="_on_return_button_pressed"]
