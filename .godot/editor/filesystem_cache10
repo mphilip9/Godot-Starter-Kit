@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1759375944
+::res://::1761530070
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::4062201879640368694::1759196212::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::6317691768167913834::1758750800::1759366556::1::::<><><>0<>0<>c1db8acab9514fdc2090279e82e8e887<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-README.md::TextFile::-1::1759366984::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1759366984::0::1::::<><><>0<>0<><>::
 ::res://assets/::1759366556
 Bells2.mp3::AudioStreamMP3/AudioStreamMP3::3979364592227654367::1759191868::1759366556::1::::<><><>0<>0<>23a455cb4f606a294965bd21a95401b6<>res://.godot/imported/Bells2.mp3-2e434b879a5446f4aed3be585f6c0d7a.mp3str::
 Drifting-Off_Looping.mp3::AudioStreamMP3/AudioStreamMP3::5793032379354762538::1759110022::1759366556::1::::<><><>0<>0<>82e41a29c98415233a43d3133feed693<>res://.godot/imported/Drifting-Off_Looping.mp3-8b30477613cdf1d698b1746e45055161.mp3str::
@@ -14,10 +14,10 @@ sound_manager.gd::GDScript/GDScript::7029717656517008170::1759196985::0::1::::<>
 ::res://scenes/::1759283735
 ::res://scenes/debug/::1759369255
 debug_overlay.gd::GDScript/GDScript::2903832321005344081::1759365706::0::1::::<>Control<><>0<>0<><>::
-debug_overlay.tscn::PackedScene::362537379506561658::1759369255::0::1::::<><><>0<>0<><>::uid://bhmvxul2cc2if::::res://scenes/debug/debug_overlay.gd
-::res://scenes/gameplay/::1759369255
+debug_overlay.tscn::PackedScene/PackedScene::362537379506561658::1759369255::0::1::::<><><>0<>0<><>::uid://bhmvxul2cc2if::::res://scenes/debug/debug_overlay.gd
+::res://scenes/gameplay/::1759375964
 gameplay.gd::GDScript/GDScript::2630879812417842996::1759203797::0::1::::<>Node2D<><>0<>0<><>::
-gameplay.tscn::PackedScene::6399787509354824670::1759369255::0::1::::<><><>0<>0<><>::uid://bdqohaj5rpl85::::res://scenes/gameplay/gameplay.gd<>uid://4ffsds0qrhy7::::res://scenes/pause/pause_menu.tscn<>uid://ffu647kk3fmo::::res://scenes/debug/debug_overlay.tscn
+gameplay.tscn::PackedScene::6399787509354824670::1759375964::0::1::::<><><>0<>0<><>::uid://bdqohaj5rpl85::::res://scenes/gameplay/gameplay.gd<>uid://4ffsds0qrhy7::::res://scenes/pause/pause_menu.tscn<>uid://ffu647kk3fmo::::res://scenes/debug/debug_overlay.tscn
 ::res://scenes/loading/::1759365708
 loading_screen.gd::GDScript/GDScript::8790473348975473365::1759194197::0::1::::LoadingScreen<>CanvasLayer<><>0<>0<><>::
 loading_screen.tscn::PackedScene/PackedScene::6234201203153637393::1759365708::0::1::::<><><>0<>0<><>::uid://dxif2unfj052p::::res://scenes/loading/loading_screen.gd
@@ -30,7 +30,7 @@ settings_menu.gd::GDScript/GDScript::4701606923627892468::1759200169::0::1::::<>
 settings_menu.tscn::PackedScene/PackedScene::5095830708454234226::1759365708::0::1::::<><><>0<>0<><>::uid://b78q1qwqqi0y7::::res://scenes/settings/settings_menu.gd<>uid://eaifvnliebm0::::res://scenes/pause/pause_menu.gdshader<>uid://dt5nkgvsx5hdo::::res://scenes/volume_slider/volume_slider.tscn
 ::res://scenes/start_screen/::1759369255
 start_screen.gd::GDScript/GDScript::8024539045349193779::1759289094::0::1::::<>Control<><>0<>0<><>::
-start_screen.tscn::PackedScene::4089832925056810463::1759369255::0::1::::<><><>0<>0<><>::uid://dmle8rpb013hv::::res://scenes/start_screen/start_screen.gd<>uid://ceupt74uc3cms::::res://scenes/settings/settings_menu.tscn<>uid://ffu647kk3fmo::::res://scenes/debug/debug_overlay.tscn
+start_screen.tscn::PackedScene/PackedScene::4089832925056810463::1759369255::0::1::::<><><>0<>0<><>::uid://dmle8rpb013hv::::res://scenes/start_screen/start_screen.gd<>uid://ceupt74uc3cms::::res://scenes/settings/settings_menu.tscn<>uid://ffu647kk3fmo::::res://scenes/debug/debug_overlay.tscn
 ::res://scenes/volume_slider/::1759365708
 volume_slider.gd::GDScript/GDScript::1693210931827072419::1759201418::0::1::::<>HSlider<><>0<>0<><>::
 volume_slider.tscn::PackedScene/PackedScene::8555588940099479024::1759365708::0::1::::<><><>0<>0<><>::uid://yeg631yp5kxn::::res://scenes/volume_slider/volume_slider.gd
