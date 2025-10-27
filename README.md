@@ -22,7 +22,7 @@ A minimal, ready-to-use Godot project template that provides essential game syst
 - Respects user volume preferences
 - Pause-resistant music playback
 
-**⏸Pause Menu**
+**Pause Menu**
 - Smooth blur transition effects
 - Integrated settings access
 - Main menu navigation  
